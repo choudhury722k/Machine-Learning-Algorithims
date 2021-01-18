@@ -65,8 +65,11 @@ p=sigmoid(X*theta)>=0.5;
 fprintf('Train Accuracy: %f\n', mean(double(p == y)) * 100);
 fprintf('\n');
 
+fprintf('\nThank you :)\n');
+
 
 %% ================================================================= %%
+
 
 %% Cost Function and Gradient calculation
 function [J, grad] = costFunction(theta, X, y)
